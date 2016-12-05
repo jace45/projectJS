@@ -1,4 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import FriendsContainer from "./FriendsContainer";
 
-React.render(<FriendsContainer />, document.getElementById('app'));
+ReactDOM.render(<FriendsContainer />, document.getElementById('app'));
 

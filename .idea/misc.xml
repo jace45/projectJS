@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../baton" value="10295312097000" />
-        <entry key="$PROJECT_DIR$/../biblioteca-1" value="2932352862000" />
-        <entry key="$PROJECT_DIR$/../cornucopia" value="2940514970000" />
-        <entry key="$USER_HOME$/twu50proj3" value="1469429823000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">

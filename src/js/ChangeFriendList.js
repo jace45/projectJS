@@ -1,19 +1,26 @@
-var ChangeFriendList = React.createClass({
-    getInitialState(){
-        return {
+import React, { Component } from "react";
+import TheButton from "./TheButton";
+
+export default class ChangeFriendList extends Component {
+    constructor(){
+        super();
+        this.state = {
             newFriend: ''
         }
-    },
+    }
+
     updateFriend(e){
         this.setState({
             newFriend: e.target.value
         });
-    },
+    }
+
     handleReset() {
         this.setState({
             newFriend: ''
         });
-    },
+    }
+    
     render() {
         return (
             <div>
@@ -27,4 +34,4 @@ var ChangeFriendList = React.createClass({
             </div>
         )
     }
-});
+}

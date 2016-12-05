@@ -1,4 +1,6 @@
-var ShowList = React.createClass({
+import React, { Component } from "react";
+
+export default class ShowList extends Component {
     render() {
         var friendList = this.props.friendNames.map(function(friendName){
             return <li> {friendName} </li>;
@@ -12,4 +14,4 @@ var ShowList = React.createClass({
             </div>
         )
     }
-});
+}
